@@ -32,6 +32,8 @@ content/settings/**
 content/themes/**
 !content/themes/casper/**
 content/themes/casper/yarn.lock
+!content/themes/cereal/**
+content/themes/cereal/yarn.lock
 node_modules/**
 core/server/lib/members/static/auth/node_modules/**
 **/*.db*
@@ -48,6 +50,7 @@ core/built/**/tests-*
 test/**
 CONTRIBUTING.md
 content/themes/casper/SECURITY.md
+content/themes/cereal/SECURITY.md
 SECURITY.md
 renovate.json
 *.html
@@ -59,7 +62,9 @@ bower_components/**
 .editorconfig
 gulpfile.js
 !content/themes/casper/gulpfile.js
+!content/themes/cereal/gulpfile.js
 package-lock.json
 content/themes/casper/config.*.json
+content/themes/cereal/config.*.json
 config.*.json
 !core/shared/config/env/**
